@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <ul id="fruits">
+            <li class="apple">Apple</li>
+            <li class="banana">Banana</li>
+            <li class="orange">Orange</li>
+        </ul>
+    </body>
+    <script>
+        const $fruits = document.getElementById('fruits');
+
+        // 모든 자식 노드를 탐색한다(NodeList)
+        console.log($fruits.childNodes);
+        //모든 자식 노드를 탐색한다(HTMLCollection)
+        console.log($fruits.children);
+        // 첫 번째 자식 노드를 탐색한다. 텍스트 노드를 반환할 수 있다.
+        console.log($fruits.firstChild);
+        // 마지막 자식 노드를 탐색한다. 텍스트 노드를 반환할 수 있다.
+        console.log($fruits.lastChild);
+        // 첫 번째 자식 노드를 탐색한다. 요소 노드만 반환할 수 있다.
+        console.log($fruits.firstElementChild);
+        // 마지막 자식 노드를 탐색한다. 요소 노드만 반환할 수 있다.
+        console.log($fruits.lastElementChild);
+    </script>
+</html>
