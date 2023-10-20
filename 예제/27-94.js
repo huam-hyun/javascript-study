@@ -21,5 +21,9 @@ console.log(todos);
 todos.sort(compare('content'));
 console.log(todos);
 /*
-
+[
+  { id: 2, content: 'CSS' },
+  { id: 1, content: 'HTML' },
+  { id: 4, content: 'JavaScript' }
+]
 */

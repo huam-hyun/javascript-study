@@ -2,4 +2,4 @@
 Array.from({ length: 3 });	// [undefined, undefined, undefined]
 
 // 두 번째 인수로 전달한 콜백 함수의 반환값으로 구성된 배열을 반환한다.
-console.log(Array.from({ length: 3}, (_, i) => i))	// [0, 1, 2]
+Array.from({ length: 3}, (_, i) => i);	// [0, 1, 2]
